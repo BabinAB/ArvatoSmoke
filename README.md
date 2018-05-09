@@ -1,0 +1,2 @@
+# ArvatoSmoke
+UI Smoke tests
