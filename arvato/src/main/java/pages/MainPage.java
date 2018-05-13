@@ -52,7 +52,7 @@ public class MainPage {
     }
 
     public void checkHomePage() {
-        leftPicture.shouldBe(visible).shouldBe(visible);
+        leftPicture.shouldBe(visible);
         rightPicture.shouldBe(visible);
         moreInfoLeft.shouldBe(visible);
         moreInfoRight.shouldBe(visible);
