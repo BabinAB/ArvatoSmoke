@@ -12,7 +12,7 @@ public class Hooks {
     @Before
     public static void setup() {
         Configuration.timeout = Long.parseLong(System.getProperty("selenide.timeout", "20000"));
-        Configuration.baseUrl = PropertyLoader.loadProperty("site.url");
+        Configuration.baseUrl = "http://arvato.ee";
         //Configuration.browserSize = PropertyLoader.loadProperty("browser.size");
         Configuration.fastSetValue = true;
         open("/");
