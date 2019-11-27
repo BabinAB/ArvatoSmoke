@@ -1,6 +1,5 @@
-import cucumber.api.CucumberOptions;
-import cucumber.api.SnippetType;
-import cucumber.api.junit.Cucumber;
+import io.cucumber.junit.Cucumber;
+import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
@@ -11,8 +10,7 @@ import org.junit.runner.RunWith;
         dryRun = false,
         strict = false,
         monochrome = true,
-        snippets = SnippetType.CAMELCASE
-
+        snippets = CucumberOptions.SnippetType.CAMELCASE
 )
 public class RunnerTest {
 }
