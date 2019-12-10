@@ -1,7 +1,7 @@
-package steps;
+package steps.classic;
 
 import io.cucumber.java.en.Given;
-import pages.LoginPage;
+import pages.classic.LoginPage;
 
 public class LoginSteps {
     LoginPage loginPage = new LoginPage();

@@ -1,10 +1,12 @@
+package runners.classic;
+
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-        features = "src/test/java/features",
+        features = "src/test/java/features/classic",
         glue = {"steps", "hooks"},
         tags = "@all",
         dryRun = false,

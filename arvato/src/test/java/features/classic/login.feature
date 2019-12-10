@@ -1,4 +1,5 @@
 @all
+@classic
 @login
 Feature: Login to application
 
