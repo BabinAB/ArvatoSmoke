@@ -1,5 +1,7 @@
 package pages.classic;
 
+import static com.codeborne.selenide.Condition.*;
+
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.SelenideElement;
 
@@ -12,6 +14,7 @@ public class LoginPage {
     private SelenideElement username = $(byName("username"));
 
     public void checkPage(){
-        securityInfo.shouldBe(Condition.visible);
+        securityInfo.shouldBe(visible);
+        securityInfo.shouldNotBe(hidden);
     }
 }
