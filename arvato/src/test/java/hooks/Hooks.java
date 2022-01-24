@@ -13,7 +13,7 @@ import static com.codeborne.selenide.Selenide.open;
 public class Hooks {
     @Before
     public static void setup() {
-        remote="http://localhost:8080/wd/hub";
+//        remote="http://localhost:8080/wd/hub";
         timeout = 10000;
         baseUrl = "https://idemo.bspb.ru/";
         browserCapabilities.setCapability("enableVNC", true);
